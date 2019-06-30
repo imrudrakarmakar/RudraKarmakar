@@ -1,0 +1,162 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.name {
+    color: #66BFBF;
+    font-size: 7.625rem;
+    margin-top: 0;
+    font-family: 'Great Vibes', cursive;
+}
+
+.tagline {
+    color: rgb(40, 203, 231);
+    font-size: 1.5rem;
+    font-family:'Merriweather Sans', sans-serif;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    color: #11999E;
+    font-size: 1.5rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+p {
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+
+.cloud-top {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.cloud-bottom {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.profile-img {
+    width: 250px;
+    border-radius: 100%;
+}
+
+.intro {
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+
+.computer {
+    width: 250px;
+    border-radius: 100%;
+    float: left;
+    margin-right:  30px;
+}
+
+.flutter {
+    width: 250px;
+    border-radius: 100%;
+    float: right;
+    margin-left:  30px;
+}
+
+.top-container {  
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+hr {
+    border: dotted rgb(145, 238, 238) 6PX;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+a {
+    color: #11999E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 15px 25px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.copy-right {
+    color: #EAF6F6;
+    font-size: 1rem;
+    padding: 20px 0px;
+}
+
+.getin {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 50px;
+    margin: auto;
+    width: 50%;
+}
+
+.butn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .butn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
